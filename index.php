@@ -18,7 +18,7 @@ while ($a <= 10) {
 $a = 0;
 $b = 7;
 while ($a < 20) {
-  echo $a*$b;
+  echo "<br />".$a*$b;
   $a++;
 }
 
@@ -33,7 +33,7 @@ while ($a >= 10) {
 // ---------------Exercie4-------------------
 $a = 1;
 while ($a <= 10) {
-  echo " ".$a;
+  echo "<br />"." ".$a;
   $a=$a+$a/2;
 }
 
@@ -47,7 +47,7 @@ while ($a <= 15) {
 // ---------------Exercie6-------------------
 $a = 20;
 while ($a >= 0) {
-  echo " ".$a." C'est presque bon";
+  echo "<br />"." ".$a." C'est presque bon";
   $a--;
 }
 
@@ -61,7 +61,7 @@ while ($a <= 100) {
 // ---------------Exercie8-------------------
 $a = 200;
 while ($a >= 0) {
-  echo " ".$a." Enfin !!!!";
+  echo "<br />"." ".$a." Enfin !!!!";
   $a=$a-12;
 }
 ?>
